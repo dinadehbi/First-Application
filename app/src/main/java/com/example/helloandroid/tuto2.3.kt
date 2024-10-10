@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.helloandroid.ui.theme.HelloAndroidTheme
 
-class MainActivity : ComponentActivity() {
+class SecondActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = Color(0xFF6200EE) // Set background color to purple
                 ) {
-                    Greeting("Android")
+                    Greeting2("Android")
                 }
             }
         }
@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting2(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         color = Color(0xFF6200EE), // Set text color to purple
@@ -40,7 +40,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun GreetingPreview2() {
     HelloAndroidTheme {
         Greeting("Android")
     }
