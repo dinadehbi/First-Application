@@ -20,6 +20,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 
 class MainActivity2 : ComponentActivity() {
@@ -53,6 +54,7 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
             verticalArrangement = Arrangement.Center,
             modifier = modifier.padding(8.dp)
         ) {
+
             Text(
                 text = message,
                 fontSize = 100.sp,
