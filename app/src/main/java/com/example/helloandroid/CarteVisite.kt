@@ -40,7 +40,7 @@ class MainActivity4 : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GreetingImage2(
+                    ContentImage2(
                         message = "Boulevard de la Corniche, Casablanca, Maroc\n",
                         title = "Ville CasaBlanca",
                         modifier = Modifier.padding(8.dp)
@@ -54,7 +54,7 @@ class MainActivity4 : ComponentActivity() {
 
 
 @Composable
-fun GreetingImage2(message: String, title: String, modifier: Modifier = Modifier) {
+fun ContentImage2(message: String, title: String, modifier: Modifier = Modifier) {
     val image = painterResource(R.drawable.mosqu_e)
     val backgroundImage: Painter = painterResource(R.drawable.i) // Load the "sky" image
 
@@ -103,8 +103,8 @@ fun GreetingImage2(message: String, title: String, modifier: Modifier = Modifier
 
 @Preview(showBackground = true)
 @Composable
-fun BirthdayCardPreview3() {
+fun CartVisitePreview() {
     HelloAndroidTheme {
-        GreetingImage2(title = "Ville : CasaBlanca\n", message = "\n Boulevard de la Corniche, Casablanca, Maroc\n")
+        ContentImage2(title = "Ville : CasaBlanca\n", message = "\n Boulevard de la Corniche, Casablanca, Maroc\n")
     }
 }
