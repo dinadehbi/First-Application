@@ -45,6 +45,7 @@ class MainActivity3 : ComponentActivity() {
     }
 }
 
+
 @Composable
 fun GreetingText2(message: String, from: String, modifier: Modifier = Modifier) {
     Box(
@@ -98,5 +99,9 @@ fun BirthdayCardPreview2() {
         GreetingImage(from = "From Android:", message = "Happy Birthday Dina!")
     }
 }
+
+
+
+
 
 

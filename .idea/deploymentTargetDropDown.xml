@@ -2,7 +2,10 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="GreetingPreview">
+      <entry key="BirthdayCardPreview2">
+        <State />
+      </entry>
+      <entry key="BirthdayCardPreview3">
         <State />
       </entry>
       <entry key="GreetingPreview2">
@@ -11,7 +14,7 @@
       <entry key="MainActivity3">
         <State />
       </entry>
-      <entry key="SecondActivity">
+      <entry key="PreviewImage">
         <State />
       </entry>
       <entry key="app">
